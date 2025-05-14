@@ -22,3 +22,71 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 12px;
+  width: 350px;
+  height: 350px;
+  border: 2px solid rgb(255, 2, 154);
+  background-color: rgb(240 255 255/0.6);
+  box-shadow: 4px 4px 8px rgb(255, 2, 154);
+}
+
+.icono {
+  position: absolute;
+  width: 100px;
+  height: 150px;
+  right: -40px;
+  top: -110px;
+  background-color: red;
+}
+.box1 {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 50px;
+  background-color: azure;
+  border: 2px solid rgb(255, 2, 154);
+  color: rgb(255, 2, 154);
+  border-radius: 10px;
+}
+.textLength {
+  display: flex;
+  width: 300px;
+  color: rgb(255, 2, 154);
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: azure;
+  border: 2px solid rgb(255, 2, 154);
+}
+
+.rangeCss {
+  width: 200px;
+  height: 5px;
+  accent-color: rgb(255, 2, 154);
+}
+
+.accentText {
+  color: rgb(255, 2, 154);
+}
+.generatePas {
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  border-radius: 8px;
+  background-color: azure;
+  border: 2px solid rgb(255, 2, 154);
+  color: rgb(255, 2, 154);
+}
